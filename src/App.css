@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  width: 100%;
   min-height: 100vh;
+  color: #1e1e1e;
+}
+
+.container {
+  height: 330px;
+  display: flex;
+  padding: 20px 0;
+  flex-direction: column;
+}
+
+.container hr {
+  border: 2px solid rgb(0, 0, 0);
+  margin: 0;
+  width: 80px;
+}
+.container .carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  height: 290px;
+}
+
+.container .carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.container .carousel .item {
+  margin-right: 50px;
+}
+
+.container .carousel .item .image {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 150px;
 }
 
-.App-link {
-  color: #61dafb;
+.container .carousel .item .image:hover {
+  background-color: #E6E8EA;
+} 
+
+.container .carousel .item .image img {
+  width: 100%;
+  height: 150px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container .carousel .item .info {
+  width: 120px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+}
+
+.container .carousel .item .info:hover {
+  background-color: #E6E8EA;
+}
+
+.container .carousel .item .info span {
+  text-align: center;
+  color: #1e1e1e;
+  border-radius: 10px;
+}
+
+.container .carousel .item .info .name {
+
+  font-size: 0.64rem;
+  font-weight: bold;
+  height: 50px;
+  color: #5c5c5c;
+  text-transform: uppercase;
+}
+
+.container .carousel .item .info .oldPrice {
+  font-size: 0.64rem;
+  color: #7A7A7A;
+}
+
+.container .carousel .item .info .price {
+  font-size: 0.82rem;
+  font-weight: bold;
+}
+
+.container .buttons {
+  width: 100%;
+  text-align: center;
+}
+.container .buttons button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 100px;
 }

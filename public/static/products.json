@@ -1,0 +1,125 @@
+[
+  {
+    "id": "94313731",
+    "name": "Tênis Nike Revolution 5 Max" ,
+    "price": 249.99,
+    "oldPrice": 349.99,
+    "parcels": 5,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/94313731.jpg"
+  },
+  {
+    "id": "94313762",
+    "name": "Mens Casual Slim Fit",
+    "price": 149.99,
+    "oldPrice": 249.99,
+    "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+  },
+  
+  { 
+    "id": "943137XQ",
+    "name": "Solid Gold Petite Micropave",
+    "price": 168.99,
+    "oldPrice": 255.99,
+    "parcels": 3,
+    "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg"
+  },
+  {
+    "id": "95077714",
+    "name": "External Hard Drive - USB 3.0",
+    "price": 199.99,
+    "oldPrice": 279.99,
+    "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg"
+  },
+  {
+    "id": "9507779N",
+    "name": "SanDisk SSD PLUS 1TB",
+    "price": 199.99,
+    "oldPrice": 279.99,
+    "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg"
+  },
+  {
+    "id": "92601102",
+    "name": "Tênis Oakley Modoc Low 3.0",
+    "price": 449.99,
+    "oldPrice": 559.99,
+    "parcels": 10,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/92601102.jpg"
+  },
+  {
+    "id": "9465450R",
+    "name": "Tênis Nike Renew Run",
+    "price": 279.99,
+    "oldPrice": 399.99,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/9465450R.jpg"
+  },
+  {
+    "id": "95004531",
+    "name": "Acer SB220Q",
+    "price": 399.99,
+    "oldPrice": 449.99,
+    "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg"
+  },
+  {
+    "id": "94672705",
+    "name": "Tênis adidas Lite Racer 20",
+    "price": 179.99,
+    "oldPrice": 229.99,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/94672705.jpg"
+  },
+  {
+    "id": "92456602",
+    "name": "Tênis Infantil Puma Wired",
+    "price": 179.99,
+    "oldPrice": 209.99,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/92456602.jpg"
+  },
+  {
+    "id": "94461431",
+    "name": "Tênis Infantil Nike Flex Runner",
+    "price": 279.99,
+    "oldPrice": null,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/94461431.jpg"
+  },
+  {
+    "id": "95850662",
+    "name": "Tênis adidas Runfalcon 2.0",
+    "price": 199.99,
+    "oldPrice": 279.99,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/95850662.jpg"
+  },
+  {
+    "id": "943137X8",
+    "name": "Tênis Nike Revolution 5",
+    "price": 249.99,
+    "oldPrice": 349.99,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/943137X8.jpg"
+  },
+  {
+    "id": "951509X8",
+    "name": "Tênis Asics Patriot 12",
+    "price": 199.99,
+    "oldPrice": 259.99,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/951509X8.jpg"
+  },
+  {
+    "id": "9515093X",
+    "name": "Tênis Asics Patriot 12",
+    "price": 199.99,
+    "oldPrice": 259.99,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/9515093X.jpg"
+  },
+  {
+    "id": "9590484W",
+    "name": "Tênis Puma Anzarun SR BDP",
+    "price": 229.99,
+    "oldPrice": 329.99,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/9590484W.jpg"
+  },
+  {
+    "id": "943137D0",
+    "name": "Tênis Nike Revolution 5",
+    "price": 249.99,
+    "oldPrice": 349.99,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/943137D0.jpg"
+  }
+]
