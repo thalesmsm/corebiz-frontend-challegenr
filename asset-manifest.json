@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/corebiz-frontend-challenger/static/css/main.c467e49d.css",
+    "main.js": "/corebiz-frontend-challenger/static/js/main.118d31a0.js",
+    "static/js/787.3c1c70dd.chunk.js": "/corebiz-frontend-challenger/static/js/787.3c1c70dd.chunk.js",
+    "index.html": "/corebiz-frontend-challenger/index.html",
+    "main.c467e49d.css.map": "/corebiz-frontend-challenger/static/css/main.c467e49d.css.map",
+    "main.118d31a0.js.map": "/corebiz-frontend-challenger/static/js/main.118d31a0.js.map",
+    "787.3c1c70dd.chunk.js.map": "/corebiz-frontend-challenger/static/js/787.3c1c70dd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c467e49d.css",
+    "static/js/main.118d31a0.js"
+  ]
+}
