@@ -1,3 +1,6 @@
+import vtex from '../images/vtex.png'
+import corebiz from '../images/corebiz.png'
+
 function Footer() {
   return ( 
     <footer className="d-flex justify-content-center text-white p-3" style={{backgroundColor: "black"}}>
@@ -25,8 +28,8 @@ function Footer() {
             </button>
         </div>
         <div className="d-flex align-items-center justify-content-around">
-          <img src="/static/images/corebiz.png" style={{marginRight: 0, width: 80}} />
-          <img src="/static/images/vtex.png" style={{width: 60}}/>
+          <img src={corebiz} style={{marginRight: 0, width: 80}} />
+          <img src={vtex} style={{width: 60}}/>
         </div>
       </div>
     </footer>

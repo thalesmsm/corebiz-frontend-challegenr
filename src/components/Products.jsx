@@ -1,6 +1,9 @@
 import React, { useEffect, useState, useRef, useContext } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Context } from '../context/Context';
+import setaesquerda from '../images/216151_left_chevron_icon.png'
+import setadireita from '../images/216151_right_chevron_icon.png'
+import stars from '../images/5-stars.png'
 
 function ProductsCarousel() {
   const [products, setProducts] = useState([]);
@@ -12,7 +15,7 @@ function ProductsCarousel() {
 
   const carousel = useRef(null);
   useEffect(() => {
-    fetch('http://localhost:3000/static/products.json')
+    fetch('https://api.escuelajs.co/api/v1/products')
       .then((res) => res.json())
       .then((json) => setProducts(json));
 
@@ -58,26 +61,26 @@ function ProductsCarousel() {
     <div className="container" style={{width: 1020}}>
       <h4>Mais Vendidos</h4>
       <hr />
-      <div className='d-flex'>
+      <div className='d-flex mt-4'>
         <button style={{width: 50}} onClick={handleLeftClick} className='btn btn-outline-light'>
-          <img src="static/images/216151_left_chevron_icon.png" alt="Scroll left" />
+          <img src={setaesquerda} alt="Scroll left" />
         </button>
         <div className='carousel' ref={carousel}>
-          {products.map(({id, name, price, oldPrice, parcels, image}) =>
+          {products.map(({id, title, price, oldPrice, parcels, images}) =>
             <div className='item' key={id} onMouseOver={()=> handleHover(id)}
             onMouseOut={handleHoverOut}>
               <div className="image">
                 <img
                   className=''
-                  src={image}
-                  alt={name}
+                  src={images[0]}
+                  alt={title}
                   />
                 <div
                   className='info d-flex flex-column align-items-center'
                 >
-                  <span className='name'>{name}</span>
-                  <img className='w-75' src="static/images/5-stars.png" alt="" style={{height: '15%', marginTop: -5,  textDecoration: 'lineThrough'}}/>
-                  <span className='oldPrice'>{` de R$ ${oldPrice}`}</span>
+                  <span className='name'>{title}</span>
+                  <img className='w-75' src={stars} alt="" style={{height: '15%', marginTop: -5,  textDecoration: 'lineThrough'}}/>
+                  <span className='oldPrice'>{` de R$ ${price*1.77}`}</span>
                   <span className='price'>{`por R$ ${price}`}</span>
                   {parcels && <span className='oldPrice'>{`ou em ${parcels} x ${(oldPrice/parcels).toFixed(2)}`}</span>}
                   {isHover === id &&
@@ -94,7 +97,7 @@ function ProductsCarousel() {
             )}
         </div> 
         <button style={{width: 50}} onClick={handleRightClick} className='btn btn-outline-light'>
-          <img src="static/images/216151_right_chevron_icon.png" alt="Scroll right" />
+          <img src={setadireita} alt="Scroll right" />
         </button>
       </div>
     </div>

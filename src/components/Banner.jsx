@@ -1,5 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
 import '../App.css'
+import banner01 from '../images/banner-image-01.png'
+import banner02 from '../images/banner-image-02.png'
+import banner03 from '../images/banner-image-03.png'
 
 function Banner() {
   const mystyle = {
@@ -13,7 +16,7 @@ function Banner() {
         <Carousel.Item interval={3000}>
           <img
             style={mystyle}
-            src='static/images/banner-image-01.png'
+            src={banner01}
             alt="Image One"
           />
           <Carousel.Caption 
@@ -32,7 +35,7 @@ function Banner() {
         <Carousel.Item interval={3000}>
           <img
             style={mystyle}
-            src='static/images/banner-image-02.png'
+            src={banner02}
             alt="Image Two"
           />
           <Carousel.Caption>
@@ -50,7 +53,7 @@ function Banner() {
         <Carousel.Item interval={3000}>
           <img
             style={mystyle}
-            src='static/images/banner-image-03.png'
+            src={banner03}
             alt="Image Three"
           />
           <Carousel.Caption>
