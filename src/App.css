@@ -100,3 +100,108 @@ body {
   cursor: pointer;
   width: 100px;
 }
+
+.menu {
+  display: none;
+}
+
+@media (max-width: 600px)
+{
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header .header-nav .nav-icon1 {
+    display: none !important;
+  }
+  .header .header-nav .nav-icon2 {
+    position: absolute !important;
+    right: 20px;
+    top: 20px;
+  }
+  .menu {
+    position: absolute !important;
+    left: 20px;
+    display: block;
+    top: 20px;
+  }
+  .header-input {
+    width: 100%;
+    order: 3;
+  }
+  .banner {
+    width: 100%;
+  }
+
+  .container {
+    width: 300px;
+  }
+  .container .carousel {
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth; 
+    height: 290px;
+  }
+  .container .carousel .item {
+    margin: 0;
+    width: 185px;
+    height: 265px;
+  }
+  .container .carousel .item .image {
+    margin: 0;
+    width: 100%;
+  }
+
+  .products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .products button{
+    display: none;
+  }
+  .news {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .news-inputs {
+    flex-direction: column;
+  }
+
+  .news-input {
+    margin: 0 0 8px;
+  }
+
+  .new-news-cont .new-news {
+    width: 100% !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .localizacao {
+    margin-bottom: 10px;
+  }
+
+  .footer-buttons-div .footer-buttons-button {
+    display: flex !important;
+    height: 35% !important;
+    margin: 0 0 8px !important;
+    justify-content: center !important;
+    font-size: 20px !important;
+    align-content: center !important;
+  } 
+
+  .erro-message {
+    display: none;
+  }
+}

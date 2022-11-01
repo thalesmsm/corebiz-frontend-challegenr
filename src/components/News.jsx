@@ -33,9 +33,9 @@ function News() {
   }
 
   return ( 
-    <div className="mt-5 p-4" style={{backgroundColor: back}}>
+    <div className="new-news-cont mt-5 p-4" style={{backgroundColor: back}}>
       {validateEmail && validateName ? 
-      <div className="d-flex flex-column align-items-center justify-content-center w-25" style={{margin: 'auto'}}>
+      <div className="new-news d-flex flex-column align-items-center justify-content-center w-25 m-auto" >
         <h4 style={{fontSize: 14, fontWeight: "bold"}}>Seu e-mail foi cadastrado com sucesso!</h4> 
         <h4 style={{fontSize: 13, fontWeight: "lighter"}}>A partir de agora receberá as novidades e ofertas exclusivas</h4>
         <button
@@ -46,19 +46,19 @@ function News() {
         </button>
       </div>
       : 
-        <div>
+        <div className="news">
           <h3 className="text-center fs-6">Participe de nossa news com promoções e novidades</h3>
-          <div className="d-flex justify-content-center align-items-center">
+          <div className="news-inputs d-flex justify-content-center align-items-center">
             <input
               type="text"
               placeholder="Digite seu nome"
-              className={`me-2 p-2 border ${validateName === false ? 'border-danger' : 'border-0' }`}
+              className={`news-input me-2 p-2 border ${validateName === false ? 'border-danger' : 'border-0' }`}
               onChange={handleChangeName}
               />
             <input
               type="email"
               placeholder="Digite se email"
-              className={`me-2 p-2 border ${validateEmail === false ? 'border-danger' : 'border-0' }`}
+              className={`news-input me-2 p-2 border ${validateEmail === false ? 'border-danger' : 'border-0' }`}
               onChange={handleChangeEmail}
               />
             <button
@@ -68,16 +68,14 @@ function News() {
               Eu quero!
             </button>
           </div>
-          <div className="d-flex justify-content-center align-items-center">
-            {validateName === false && <p className='me-2 text-danger' style={{fontSize: 10, width: 264, position:'absolute', left:392,top:800}}>Preencha com seu nome completo</p> }
-            {validateEmail === false && <p className='me-2 text-danger' style={{fontSize: 10, width: 264, position:'absolute', left:665, top:800}}>Preencha com um e-mail valido</p> }
+          <div className="erro d-flex justify-content-center align-items-center">
+            {validateName === false && <p className='erro-message me-2 text-danger' style={{fontSize: 10, width: 264, position:'absolute', left:392,top:800}}>Preencha com seu nome completo</p> }
+            {validateEmail === false && <p className='erro-message me-2 text-danger' style={{fontSize: 10, width: 264, position:'absolute', left:665, top:800}}>Preencha com um e-mail valido</p> }
             <div style={{fontSize: 10, width: 95}}></div>
           </div>
         </div>
       }
-      
     </div>
-
   );
 }
 

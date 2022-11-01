@@ -59,10 +59,10 @@ function ProductsCarousel() {
   }
 
   return (   
-    <div className="container" style={{width: 1020}}>
+    <div className="container" style={{maxWidth: 1020}}>
       <h4>Mais Vendidos</h4>
       <hr />
-      <div className='d-flex mt-4'>
+      <div className='products d-flex mt-4'>
         <button style={{width: 50}} onClick={handleLeftClick} className='btn btn-outline-light'>
           <img src={setaesquerda} alt="Scroll left" />
         </button>

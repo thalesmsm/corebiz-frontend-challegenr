@@ -11,7 +11,7 @@ function Banner() {
     height: '280px',
   };
   return ( 
-    <section>
+    <section className='banner'>
       <Carousel controls={false}>
         <Carousel.Item interval={3000}>
           <img
