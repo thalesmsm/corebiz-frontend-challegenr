@@ -23,7 +23,7 @@ function ProductsCarousel() {
       // console.log(localCart);
       // console.log(cart);
 
-      if (!cart || !localCart || localCart.length === 0) {
+      if (!localCart || localCart.length === 0) {
         localStorage.setItem('cart', JSON.stringify([]))
       }
 
