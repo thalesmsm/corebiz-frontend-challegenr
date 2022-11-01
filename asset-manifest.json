@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/corebiz-frontend-challenger/static/css/main.bf587fc6.css",
-    "main.js": "/corebiz-frontend-challenger/static/js/main.452f9b1a.js",
+    "main.css": "/corebiz-frontend-challenger/static/css/main.f4a4a129.css",
+    "main.js": "/corebiz-frontend-challenger/static/js/main.9994ac4e.js",
     "static/js/787.3c1c70dd.chunk.js": "/corebiz-frontend-challenger/static/js/787.3c1c70dd.chunk.js",
     "static/media/banner-image-03.png": "/corebiz-frontend-challenger/static/media/banner-image-03.077431abad28ba3267e5.png",
     "static/media/banner-image-02.png": "/corebiz-frontend-challenger/static/media/banner-image-02.32a1e1f65aff5dbdcb49.png",
     "static/media/banner-image-01.png": "/corebiz-frontend-challenger/static/media/banner-image-01.9eff6e4a2e0c787b7b2a.png",
     "index.html": "/corebiz-frontend-challenger/index.html",
-    "main.bf587fc6.css.map": "/corebiz-frontend-challenger/static/css/main.bf587fc6.css.map",
-    "main.452f9b1a.js.map": "/corebiz-frontend-challenger/static/js/main.452f9b1a.js.map",
+    "main.f4a4a129.css.map": "/corebiz-frontend-challenger/static/css/main.f4a4a129.css.map",
+    "main.9994ac4e.js.map": "/corebiz-frontend-challenger/static/js/main.9994ac4e.js.map",
     "787.3c1c70dd.chunk.js.map": "/corebiz-frontend-challenger/static/js/787.3c1c70dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf587fc6.css",
-    "static/js/main.452f9b1a.js"
+    "static/css/main.f4a4a129.css",
+    "static/js/main.9994ac4e.js"
   ]
 }
