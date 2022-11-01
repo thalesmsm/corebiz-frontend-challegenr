@@ -122,6 +122,11 @@ body {
     right: 20px;
     top: 20px;
   }
+  .header .header-nav .nav-cart-nums {
+    position: absolute !important;
+    right: 8px;
+    top: 20px;
+  }
   .menu {
     position: absolute !important;
     left: 20px;
