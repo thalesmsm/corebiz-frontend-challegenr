@@ -20,9 +20,10 @@ function ProductsCarousel() {
       .then((json) => setProducts(json));
 
       const localCart = JSON.parse(localStorage.getItem('cart'));
-      console.log(localCart);
+      // console.log(localCart);
+      // console.log(cart);
 
-      if (!localCart || localCart.length === 0) {
+      if (!cart || !localCart || localCart.length === 0) {
         localStorage.setItem('cart', JSON.stringify([]))
       }
 

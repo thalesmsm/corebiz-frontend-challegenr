@@ -43,8 +43,7 @@ function Header() {
             shopping_cart
           </span>
         </a>
-        {cart.length > 0 && <span style={myStyle}>{cart.length}</span>}
-        
+        {cart && cart.length > 0 && <span style={myStyle}>{cart.length}</span>}
       </nav>
     </header>
   )
