@@ -1,6 +1,6 @@
 ## Corebiz. e-commerce Frontend Challenger
 
-![](https://github.com/thalesmsm/corebiz-frontend-challenger/blob/main/src/images/test-corebiz.gif?raw=true)
+https://user-images.githubusercontent.com/98064558/199481797-64b2bbde-4809-42b0-8daf-e589d0f7bdeb.mp4
 ##
 ### Sobre o projeto
 
